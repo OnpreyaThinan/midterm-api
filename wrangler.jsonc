@@ -10,7 +10,14 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "campus_booking_db",
+			"database_name": "campus-booking-db",
+			"database_id": "c0cada17-4b45-48ae-8e8f-7e87ce238e08"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
